@@ -1,0 +1,24 @@
+#nome
+{
+	color: #ffffff;
+}
+
+*{
+	font-family: 'Dancing Script', cursive;
+}
+
+#topper
+{
+	height: 100px;
+	width: auto;
+	text-align: center;
+	background-color: #165d73;
+	display: flex;
+}
+
+#logo
+{
+	margin-top:10px;
+	margin-right: auto;
+    	margin-left: 20px;
+}
