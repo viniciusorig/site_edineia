@@ -1,8 +1,3 @@
-#nome
-{
-	color: #ffffff;
-}
-
 *{
 	font-family: 'Dancing Script', cursive;
 }
@@ -20,5 +15,20 @@
 {
 	margin-top:10px;
 	margin-right: auto;
-    	margin-left: 20px;
+  margin-left: 20px;
+}
+
+#whatsapp div
+{
+  background-color: #00ff00;
+}
+
+#whatsapp a
+{
+  text-align: center;
+}
+
+#whatsapp img
+{
+  height: 3rem;
 }
