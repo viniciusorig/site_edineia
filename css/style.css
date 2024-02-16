@@ -1,34 +1,148 @@
+:root
+{
+	--primary: #165d73;
+	--zap: #009846;	
+  --orig: #D9D9D9;
+}
+
 *{
-	font-family: 'Dancing Script', cursive;
+	font-family: "Cuprum", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
 
 #topper
 {
-	height: 100px;
-	width: auto;
-	text-align: center;
-	background-color: #165d73;
 	display: flex;
+	height: 5rem;
+	width: 100%;
+	background-color: var(--primary);
 }
 
 #logo
 {
+	height: 4rem;
 	margin-top:10px;
 	margin-right: auto;
-  margin-left: 20px;
+	margin-left: 20px;
 }
 
-#whatsapp div
+nav
 {
-  background-color: #00ff00;
+	display: flex;
+	align-items: center;
+}
+
+nav a
+{
+	color: white;
+	padding: 1rem;
+
+}
+
+#whatsapp
+{
+	display: block;
+	background-color: var(--zap);
+	min-width: 8rem;
+	max-width: 8rem;
+	height: 1.5rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 #whatsapp a
 {
-  text-align: center;
+	color: white;
 }
 
 #whatsapp img
 {
-  height: 3rem;
+	height: 1rem;
+}
+
+.mb-1
+{
+	margin-bottom: -3px;
+}
+
+body
+{
+  background-color: var(--primary);
+}
+
+#trabalho h2
+{
+  color: white;
+  text-align: center;
+}
+
+#processo h2
+{
+  color: white;
+  text-align: center;
+}
+
+#processo p
+{
+  color: white;
+  padding: 1rem;
+  text-align: justify;
+}
+
+
+.slideshow-container 
+{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides 
+{
+  display: none;
+}
+
+.prev, .next 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev 
+{
+  left: 0;
+}
+
+.next 
+{
+  right: 0;
+}
+
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+footer
+{
+  background-color: var(--orig);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
 }

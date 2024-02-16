@@ -1,25 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt_br">
 	<head>
-		<style>
- 			@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-		</style>
-		<meta charset="UTF-8"/>
-		<meta http-equiv="refresh" content="1"/>
-		<link rel="stylesheet" href="css/style.css">
-		<title>edineia</title>
+    	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">	
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="css/style.css">
+	<title>edineia</title>
 	</head>
 	<body>
-		<div id="topper">
-			<img src="pictures/logo_white.png" id="logo">
-      <nav>
-        <a href="#">Trabalhos</a>
-        <a href="#">Sobre</a>
-        <div id="whatsapp" href="#">
-          <img src="pictures/whatsapp.png">
-          <a href="#">Whatsapp</a>
-        </div>
+		<header id="topper">
+			<img src="pictures/logos/logo_white.png" id="logo">
+			<nav>
+				<a href="#">Trabalhos</a>
+				<a href="#">Sobre</a>        
+      	<div id="whatsapp" href="#">
+					<a href="#">
+						<img src="pictures/logos/whatsapp.svg" class="mb-1">
+	    					Whatsapp
+					</a>
+				</div>
       </nav>
-		</div>	
+		</header>
+    <div id="trabalho">
+      <h2>Trabalhos</h2>
+      <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="pictures/1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="pictures/2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="pictures/3.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<script src="script.js"></script>
+    </div>
+    <div id="processo">
+      <h2>Processo</h2>
+      <p>
+        O envelopamento de móveis e veículos é um processo de revestimento que oferece uma variedade de benefícios estéticos e práticos. Ao aplicar um material específico, como vinil adesivo, sobre superfícies como móveis ou veículos, é possível criar uma nova aparência, proteger contra danos e personalizar de acordo com preferências individuais.
+      </p>
+    </div>
+    <div id="contato">
+      <h2>contato</h2>
+      <div id="cont-whats">
+        <a>(67)9948-1854</a>
+      </div>
+    <div id="cont-insta">
+        <a>@edineia9275</a>
+      </div></div>
 	</body>
+	<footer>
+    <p>&#169; orig</p>
+	</footer>
 </html>
