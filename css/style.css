@@ -98,6 +98,7 @@ body
 .slideshow-container 
 {
   max-width: 1000px;
+  max-height: 30rem;
   position: relative;
   margin: auto;
 }
@@ -135,6 +136,28 @@ body
 .prev:hover, .next:hover 
 {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+#contato
+{
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+#contato h2
+{
+  margin-top: 0.4rem;
+}
+
+#contato img
+{ 
+  height: 1rem;
+}
+
+#cont-wahats
+{
+  margin-right: 0.5rem;
 }
 
 footer
