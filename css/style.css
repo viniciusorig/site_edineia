@@ -105,8 +105,8 @@
 
   .slideshow-container 
   {
-    max-width: 40rem;
-    max-height: 45rem;
+    max-width: 70rem;
+    max-height: 70rem;
     position: relative;
     margin: auto;
   }
