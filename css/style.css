@@ -42,12 +42,12 @@
   }
   nav a 
   {
-    font-size: 1.5rem;
+    font-size: 3rem;
   } 
 
   #text_nav
   {
-    font-size: 1.75rem;
+    font-size: 3rem;
     color: white;
     padding: 1rem;
   }
@@ -56,9 +56,9 @@
   {
     display: block;
     background-color: var(--zap);
-    min-width: 9rem;
-    max-width: 9rem;
-    height: 2rem;
+    min-width: 15rem;
+    max-width: 15rem;
+    height: 4rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     margin-right: 0.5rem;
@@ -111,8 +111,9 @@
 
   .slideshow-container 
   {
-    max-width: 70rem;
-    max-height: 70rem;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: auto;
     position: relative;
     margin: auto;
   }
