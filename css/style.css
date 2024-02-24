@@ -40,10 +40,14 @@
     display: flex;
     align-items: center;
   }
+  nav a 
+  {
+    font-size: 1.5rem;
+  } 
 
   #text_nav
   {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     color: white;
     padding: 1rem;
   }
@@ -64,7 +68,7 @@
   {
     color: white;
     text-align: justify ;
-    font-size: 1.5rem;
+ 
   }
 
   #whatsapp img
@@ -93,12 +97,14 @@
   {
     color: white;
     text-align: center;
+    font-size: 4rem;
   }
 
   #processo p
   {
     color: white;
     padding: 1rem;
+    font-size: 3rem;
     text-align: justify;
   }
 
@@ -120,24 +126,32 @@
   {
     color: white;
     text-align: center;
-    align-items: center;
+
   }
 
   #contato h2
   {
     margin-top: 0.4rem;
+    font-size: 4rem;
+
+  }
+  #contato a
+  {
+    font-size: 3rem;
   }
 
   #contato img
-  { 
-    height: 1rem;
+  {
+    height: 3rem;
+    padding: 1rem;
   }
 
-  #cont-wahats
+  #cont-whats
   {
     margin-right: 0.5rem;
+    text-align: center;
   }
-
+  
   footer
   {
     background-color: var(--orig);
@@ -145,7 +159,7 @@
     bottom: 0;
     width: 100%;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 2rem;
   } 
 }
 
