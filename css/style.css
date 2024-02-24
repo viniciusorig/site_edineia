@@ -122,37 +122,24 @@
   {
     display: none;
   }
-
+  
   #contato
   {
+
+    justify-content: center;
     color: white;
     text-align: center;
-
-  }
-
-  #contato h2
-  {
+    font-size: 3rem; 
     margin-top: 0.4rem;
     font-size: 4rem;
-
   }
-  #contato a
-  {
-    font-size: 3rem;
-  }
-
+  
   #contato img
   {
     height: 3rem;
-    padding: 1rem;
+    margin-right: 1rem;
   }
 
-  #cont-whats
-  {
-    margin-right: 0.5rem;
-    text-align: center;
-  }
-  
   footer
   {
     background-color: var(--orig);
