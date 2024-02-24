@@ -17,14 +17,14 @@
   #topper
   {
     display: flex;
-    height: 5rem;
+    height: 8rem;
     width: 100%;
     background-color: var(--primary);
   }
 
   #logo
   {
-    height: 4rem;
+    height: 8rem;
     margin-top:10px;
     margin-right: auto;
     margin-left: 20px;
@@ -41,20 +41,20 @@
     align-items: center;
   }
 
-  nav a
+  #text_nav
   {
+    font-size: 1.5rem;
     color: white;
     padding: 1rem;
-
   }
 
   #whatsapp
   {
     display: block;
     background-color: var(--zap);
-    min-width: 8rem;
-    max-width: 8rem;
-    height: 1.5rem;
+    min-width: 9rem;
+    max-width: 9rem;
+    height: 2rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     margin-right: 0.5rem;
@@ -63,11 +63,13 @@
   #whatsapp a
   {
     color: white;
+    text-align: justify ;
+    font-size: 1.5rem;
   }
 
   #whatsapp img
   {
-    height: 1rem;
+    height: 1.5rem;
   }
 
   .mb-1
@@ -84,6 +86,7 @@
   {
     color: white;
     text-align: center;
+    font-size: 4rem;
   }
 
   #processo h2
